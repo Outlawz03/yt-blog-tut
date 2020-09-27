@@ -35,7 +35,7 @@ export const StyledButton = styled.button`
   border: ${({btnTheme}) => handleTheme(btnTheme).border};
   text-align: center;
   vertical-align: middle;
-  min-width: 64px;
+  min-width: 150px;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;  
 
   &:hover {
