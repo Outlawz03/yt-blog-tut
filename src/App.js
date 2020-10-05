@@ -6,6 +6,7 @@ import { GlobalStyle } from './components/style/GlobalStyle'
 import { Header } from './components/common/Header';
 import { Home } from './components/pages/Home';
 import { About } from './components/pages/About';
+import { AddPost } from './components/pages/AddPost';
 import { PageNotFound } from './components/pages/PageNotFound';
 
 export const App = () => 
@@ -15,6 +16,7 @@ export const App = () =>
     <Switch>
       <Route path={["/", "/home"]} exact component={ Home }/>
       <Route path="/about" component={ About }/>
+      <Route path="/addPost" component={ AddPost }/>
       <Route component={ PageNotFound }/>
     </Switch>
   </>;
